@@ -7,11 +7,16 @@ import { IndexComponent } from './index/index.component';
 import { LoadSettingsComponent } from './load-settings/load-settings.component';
 
 const routes: Routes = [
+    // {
+    //     path:'', component:LoadSettingsComponent
+    // },
     {
-        path:'', component:LoadSettingsComponent
+        path: 'store', component: IndexComponent
     },
     {
-        path: 'fashion-store-v1', component: IndexComponent
+        path: '',
+        redirectTo: 'store',
+        pathMatch: 'full'
     }
 ];
 

@@ -14,8 +14,8 @@ export class HomeService {
     private http:HttpClient
   ) { }
 
-  loadThemeSettings(userid:string){
-    return this.http.get<ThemeSettings>(`${this.APIEndpoint}/themesettings?userid=${userid}`)
-  }
+  // loadThemeSettings(userid:string){
+  //   return this.http.get<ThemeSettings>(`${this.APIEndpoint}/themesettings?userid=${userid}`)
+  // }
 
 }

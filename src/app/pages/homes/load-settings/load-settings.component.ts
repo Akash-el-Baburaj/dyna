@@ -39,15 +39,15 @@ export class LoadSettingsComponent implements OnInit {
    * Fetching theme settings from BE, and updates to the State
    */
   fetchSettings(){
-    let userid = environment.userid??null;
-    this.ngrxStore.select(selectThemeSettings).subscribe((settings:any)=>{
-      if(settings.theme.style){
-        this.router.navigate([settings.theme.style])
-      }
-      else{
-        this.router.navigate(['fashion-store-v1'])
-      }
-    })
+    // let userid = environment.userid??null;
+    // this.ngrxStore.select(selectThemeSettings).subscribe((settings:any)=>{
+    //   if(settings.theme.style){
+    //     this.router.navigate([settings.theme.style])
+    //   }
+    //   else{
+        this.router.navigate(['store'])
+    //   }
+    // })
     // this.router.navigate(['/'])
     // 
     // this.homeServices.loadThemeSettings(userid).subscribe({

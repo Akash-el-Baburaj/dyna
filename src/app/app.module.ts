@@ -13,14 +13,14 @@ import { AppComponent } from './app.component';
 import { PagesModule } from "./pages/pages.module";
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './ngrx/reducers';
-import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
+// import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 import { environment } from 'src/environments/environment';
 
-const config: SocketIoConfig = { url: 'ws://localhost:3000', options: {
-  query:{
-    userid:environment.userid
-  }
-} };
+// const config: SocketIoConfig = { url: 'ws://localhost:3000', options: {
+//   query:{
+//     userid:environment.userid
+//   }
+// } };
 
 export function createTranslateLoader(http: HttpClient): any {
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -43,7 +43,7 @@ export function createTranslateLoader(http: HttpClient): any {
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    SocketIoModule.forRoot(config),
+    // SocketIoModule.forRoot(config),
     PagesModule,
     StoreModule.forRoot(reducers, {
       metaReducers

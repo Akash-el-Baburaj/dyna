@@ -1,7 +1,7 @@
 // Style Data
 const StyleData = [
   {
-    image:'assets/img/shop/catalog/14.jpg',
+    image:'src/assets/img/shop/catalog/14.jpg',
     category: 'Men’s Jeans',
     name:'Slim Taper Fit Jeans',
     price: '58.99',
@@ -9,7 +9,7 @@ const StyleData = [
     rating: 4,
   },
   {
-    image:'assets/img/shop/catalog/17.jpg',
+    image:'src/assets/img/shop/catalog/17.jpg',
     category: 'Men’s T-shirts',
     name:'Cotton T-shirt Regular Fit',
     price: '9.50',
@@ -17,7 +17,7 @@ const StyleData = [
     rating: 3.5,
   },    
   {
-    image:'assets/img/shop/catalog/18.jpg',
+    image:'src/assets/img/shop/catalog/18.jpg',
     category: 'Men’s Shoes',
     name:'Men’s Leather Keds',
     price: '64.99',
@@ -25,7 +25,7 @@ const StyleData = [
     rating: 5,
   },  
   {
-    image:'assets/img/shop/catalog/19.jpg',
+    image:'src/assets/img/shop/catalog/19.jpg',
     category: 'Men’s T-shirts',
     name:'3 Color Collection of T-shirts',
     price: '27.99',
@@ -33,7 +33,7 @@ const StyleData = [
     rating: 4.5,
   },
   {
-    image:'assets/img/shop/catalog/13.jpg',
+    image:'src/assets/img/shop/catalog/13.jpg',
     category: 'Men’s T-shirts',
     name:'Cotton Polo Regular Fit',
     price: '13.50',
@@ -44,7 +44,7 @@ const StyleData = [
 
 const PopulerData = [
   {
-    image:'assets/img/shop/catalog/20.jpg',
+    image:'src/assets/img/shop/catalog/20.jpg',
     category: 'Men’s Hoodie',
     name: 'Block-colored Hooded Top',
     price: '24.99',
@@ -52,7 +52,7 @@ const PopulerData = [
     rating: 3.5,
   },
   {
-    image:'assets/img/shop/catalog/21.jpg',
+    image:'src/assets/img/shop/catalog/21.jpg',
     category: 'Men’s Hoodie',
     name: 'Block-colored Hooded Top',
     price: '26.99',
@@ -60,7 +60,7 @@ const PopulerData = [
     rating: 5,
   },    
   {
-    image:'assets/img/shop/catalog/22.jpg',
+    image:'src/assets/img/shop/catalog/22.jpg',
     category: 'Men’s Hoodie',
     name: 'Block-colored Hooded Top',
     price: '24.99',
@@ -68,7 +68,7 @@ const PopulerData = [
     rating: 2.5,
   },  
   {
-    image:'assets/img/shop/catalog/23.jpg',
+    image:'src/assets/img/shop/catalog/23.jpg',
     category: 'Men’s Hoodie',
     name: 'Block-colored Hooded Top',
     price: '24.99',
@@ -76,7 +76,7 @@ const PopulerData = [
     rating: 4,
   },
   {
-    image:'assets/img/shop/catalog/24.jpg',
+    image:'src/assets/img/shop/catalog/24.jpg',
     category: 'Men’s Hoodie',
     name: 'Block-colored Hooded Top',
     price: '25',
